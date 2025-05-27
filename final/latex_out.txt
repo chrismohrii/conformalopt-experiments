@@ -1,0 +1,110 @@
+\textbf{MSFT ar}, q. loss (avg) & 0.091 & 0.09 & 0.09 & 0.088 & 0.09 & 0.088 & 0.088 & 0.091\\
+\textbf{MSFT ar}, set size (avg) & 0.853 & 0.818 & 0.869 & 0.83 & 0.85 & 0.822 & 0.812 & 0.838\\
+\textbf{MSFT ar}, q. loss (win \%) & 1.0 & 0.554 & 0.486 & 0.538 & 0.538 & 0.515 & 0.526 & 0.517\\
+\textbf{MSFT ar}, set size (win \%) & 1.0 & 0.566 & 0.474 & 0.542 & 0.538 & 0.526 & 0.528 & 0.517\\
+\midrule
+\textbf{MSFT theta}, q. loss (avg) & 0.139 & 0.133 & 0.136 & 0.14 & 0.154 & 0.14 & 0.128 & 0.138\\
+\textbf{MSFT theta}, set size (avg) & 2.048 & 1.956 & 1.997 & 2.113 & 2.266 & 2.092 & 1.922 & 2.068\\
+\textbf{MSFT theta}, q. loss (win \%) & 1.0 & 0.561 & 0.485 & 0.428 & 0.447 & 0.451 & 0.547 & 0.505\\
+\textbf{MSFT theta}, set size (win \%) & 1.0 & 0.563 & 0.49 & 0.423 & 0.446 & 0.457 & 0.543 & 0.504\\
+\midrule
+\textbf{MSFT prophet}, q. loss (avg) & \textbf{0.104} & \textbf{0.1} & \textbf{0.101} & 0.151 & 0.213 & 0.15 & 0.134 & 0.134\\
+\textbf{MSFT prophet}, set size (avg) & \textbf{2.718} & \textbf{2.705} & \textbf{2.738} & 3.117 & 3.57 & 3.143 & 2.938 & 2.934\\
+\textbf{MSFT prophet}, q. loss (win \%) & 1.0 & 0.519 & 0.466 & 0.302 & 0.281 & 0.301 & 0.257 & 0.251\\
+\textbf{MSFT prophet}, set size (win \%) & 1.0 & 0.508 & 0.449 & 0.31 & 0.3 & 0.309 & 0.268 & 0.269\\
+\midrule
+\textbf{MSFT transformer}, q. loss (avg) & \textbf{0.115} & \textbf{0.118} & \textbf{0.107} & 0.289 & 0.352 & 0.196 & 0.149 & 0.148\\
+\textbf{MSFT transformer}, set size (avg) & 5.947 & 5.942 & 5.852 & 7.629 & 7.938 & 6.661 & 6.119 & 6.104\\
+\textbf{MSFT transformer}, q. loss (win \%) & 1.0 & 0.443 & 0.543 & 0.29 & 0.243 & 0.345 & 0.38 & 0.373\\
+\textbf{MSFT transformer}, set size (win \%) & 1.0 & 0.441 & 0.536 & 0.294 & 0.257 & 0.356 & 0.379 & 0.373\\
+\midrule
+\textbf{AMZN ar}, q. loss (avg) & 1.198 & 1.215 & 1.205 & 1.198 & 1.29 & 1.195 & 1.197 & 1.228\\
+\textbf{AMZN ar}, set size (avg) & 10.112 & 9.711 & 10.398 & 10.112 & 11.592 & 10.009 & 10.15 & 10.63\\
+\textbf{AMZN ar}, q. loss (win \%) & 1.0 & 0.538 & 0.446 & 1.0 & 0.508 & 0.537 & 0.528 & 0.469\\
+\textbf{AMZN ar}, set size (win \%) & 1.0 & 0.556 & 0.446 & 1.0 & 0.513 & 0.554 & 0.554 & 0.481\\
+\midrule
+\textbf{AMZN theta}, q. loss (avg) & 1.218 & 1.203 & 1.207 & 1.188 & 1.283 & 1.192 & 1.195 & 1.23\\
+\textbf{AMZN theta}, set size (avg) & 10.252 & 10.364 & 10.586 & 9.927 & 11.364 & 9.91 & 9.976 & 10.426\\
+\textbf{AMZN theta}, q. loss (win \%) & 1.0 & 0.405 & 0.397 & 0.452 & 0.42 & 0.458 & 0.453 & 0.406\\
+\textbf{AMZN theta}, set size (win \%) & 1.0 & 0.379 & 0.371 & 0.434 & 0.394 & 0.446 & 0.438 & 0.391\\
+\midrule
+\textbf{AMZN prophet}, q. loss (avg) & 2.208 & \textbf{1.419} & \textbf{1.341} & 2.432 & 2.998 & 2.264 & 1.855 & 1.84\\
+\textbf{AMZN prophet}, set size (avg) & 49.995 & \textbf{42.825} & \textbf{43.105} & 52.808 & 57.934 & 51.747 & 46.209 & 46.231\\
+\textbf{AMZN prophet}, q. loss (win \%) & 1.0 & 0.529 & 0.511 & 0.341 & 0.293 & 0.364 & 0.384 & 0.378\\
+\textbf{AMZN prophet}, set size (win \%) & 1.0 & 0.514 & 0.488 & 0.352 & 0.302 & 0.369 & 0.386 & 0.379\\
+\midrule
+\textbf{AMZN transformer}, q. loss (avg) & \textbf{1.713$^*$} & \textbf{1.863} & \textbf{1.39} & 4.975 & 6.622 & 4.286 & 2.055 & 2.057\\
+\textbf{AMZN transformer}, set size (avg) & 93.963$^*$ & 97.903 & 92.614 & 127.9 & 143.724 & 120.728 & 97.04 & 97.04\\
+\textbf{AMZN transformer}, q. loss (win \%) & 1.0 & 0.389 & 0.567 & 0.309 & 0.25 & 0.292 & 0.283 & 0.274\\
+\textbf{AMZN transformer}, set size (win \%) & 1.0 & 0.367 & 0.545 & 0.314 & 0.261 & 0.307 & 0.277 & 0.269\\
+\midrule
+\textbf{GOOGL ar}, q. loss (avg) & 1.117 & 1.136 & 1.138 & 1.122 & 1.185 & 1.124 & 1.118 & 1.142\\
+\textbf{GOOGL ar}, set size (avg) & 10.436 & 9.828 & 10.681 & 10.335 & 11.167 & 10.334 & 9.932 & 10.827\\
+\textbf{GOOGL ar}, q. loss (win \%) & 1.0 & 0.63 & 0.465 & 0.418 & 0.545 & 0.541 & 0.633 & 0.495\\
+\textbf{GOOGL ar}, set size (win \%) & 1.0 & 0.675 & 0.477 & 0.413 & 0.557 & 0.567 & 0.666 & 0.494\\
+\midrule
+\textbf{GOOGL theta}, q. loss (avg) & 1.744 & 1.61 & 1.615 & 1.76 & 1.911 & 1.762 & 1.623 & 1.724\\
+\textbf{GOOGL theta}, set size (avg) & 24.999 & 23.433 & 23.027 & 25.503 & 27.248 & 24.773 & 23.235 & 24.545\\
+\textbf{GOOGL theta}, q. loss (win \%) & 1.0 & 0.594 & 0.603 & 0.458 & 0.495 & 0.509 & 0.586 & 0.512\\
+\textbf{GOOGL theta}, set size (win \%) & 1.0 & 0.598 & 0.616 & 0.455 & 0.5 & 0.523 & 0.598 & 0.519\\
+\midrule
+\textbf{GOOGL prophet}, q. loss (avg) & \textbf{1.335} & \textbf{1.33} & \textbf{1.317} & 2.086 & 2.459 & 2.072 & 1.812 & 1.803\\
+\textbf{GOOGL prophet}, set size (avg) & \textbf{34.916} & \textbf{35.136} & \textbf{35.297} & 43.597 & 47.222 & 43.553 & 39.424 & 39.154\\
+\textbf{GOOGL prophet}, q. loss (win \%) & 1.0 & 0.38 & 0.406 & 0.27 & 0.258 & 0.272 & 0.245 & 0.251\\
+\textbf{GOOGL prophet}, set size (win \%) & 1.0 & 0.333 & 0.371 & 0.279 & 0.27 & 0.284 & 0.248 & 0.25\\
+\midrule
+\textbf{GOOGL transformer}, q. loss (avg) & \textbf{1.711} & \textbf{1.585$^*$} & \textbf{1.6} & 5.729 & 12.424 & 4.045 & 2.396 & 2.407\\
+\textbf{GOOGL transformer}, set size (avg) & 208.989 & 206.891$^*$ & 207.588 & 245.381 & 291.003 & 228.834 & 212.054 & 211.965\\
+\textbf{GOOGL transformer}, q. loss (win \%) & 1.0 & 0.566 & 0.601 & 0.158 & 0.212 & 0.277 & 0.318 & 0.318\\
+\textbf{GOOGL transformer}, set size (win \%) & 1.0 & 0.557 & 0.605 & 0.174 & 0.227 & 0.292 & 0.322 & 0.322\\
+\midrule
+\textbf{daily-climate ar}, q. loss (avg) & 0.243 & 0.246 & 0.249 & 0.243 & 0.251 & 0.239 & 0.237 & 0.254\\
+\textbf{daily-climate ar}, set size (avg) & 2.708 & 2.514 & 2.609 & 2.632 & 2.689 & 2.705 & 2.583 & 2.708\\
+\textbf{daily-climate ar}, q. loss (win \%) & 1.0 & 0.537 & 0.525 & 1.0 & 0.5 & 0.549 & 0.556 & 0.47\\
+\textbf{daily-climate ar}, set size (win \%) & 1.0 & 0.539 & 0.532 & 1.0 & 0.504 & 0.558 & 0.564 & 0.461\\
+\midrule
+\textbf{daily-climate theta}, q. loss (avg) & 0.274 & 0.268 & 0.269 & 0.264 & 0.275 & 0.265 & 0.263 & 0.288\\
+\textbf{daily-climate theta}, set size (avg) & 3.325 & 3.351 & 3.291 & 3.295 & 3.192 & 3.245 & 3.174 & 3.247\\
+\textbf{daily-climate theta}, q. loss (win \%) & 1.0 & 0.47 & 0.476 & 0.539 & 0.527 & 0.552 & 0.542 & 0.483\\
+\textbf{daily-climate theta}, set size (win \%) & 1.0 & 0.454 & 0.473 & 0.541 & 0.533 & 0.57 & 0.539 & 0.498\\
+\midrule
+\textbf{daily-climate prophet}, q. loss (avg) & \textbf{0.269} & \textbf{0.275} & \textbf{0.281} & 0.317 & 0.3 & 0.309 & 0.32 & 0.317\\
+\textbf{daily-climate prophet}, set size (avg) & \textbf{3.828} & \textbf{3.788} & \textbf{3.918} & 4.219 & 4.22 & 4.168 & 4.2 & 4.162\\
+\textbf{daily-climate prophet}, q. loss (win \%) & 1.0 & 0.506 & 0.483 & 0.347 & 0.383 & 0.394 & 0.356 & 0.374\\
+\textbf{daily-climate prophet}, set size (win \%) & 1.0 & 0.515 & 0.482 & 0.351 & 0.39 & 0.404 & 0.371 & 0.399\\
+\midrule
+\textbf{daily-climate transformer}, q. loss (avg) & \textbf{0.313} & \textbf{0.317} & \textbf{0.315} & 0.443 & 0.359 & 0.392 & 0.42 & 0.421\\
+\textbf{daily-climate transformer}, set size (avg) & \textbf{9.1} & \textbf{9.148} & \textbf{8.955} & 10.126 & 9.923 & 9.808 & 9.831 & 9.899\\
+\textbf{daily-climate transformer}, q. loss (win \%) & 1.0 & 0.409 & 0.549 & 0.431 & 0.376 & 0.431 & 0.345 & 0.311\\
+\textbf{daily-climate transformer}, set size (win \%) & 1.0 & 0.406 & 0.548 & 0.437 & 0.384 & 0.436 & 0.359 & 0.317\\
+\midrule
+
+
+
+\textbf{elec}, q. loss (avg) & \textbf{0.005} & \textbf{0.005} & \textbf{0.005} & 0.013 & 0.015 & 0.013 & 0.011 & 0.011\\
+\textbf{elec}, set size (avg) & \textbf{0.16} & \textbf{0.159} & \textbf{0.157} & 0.229 & 0.244 & 0.227 & 0.201 & 0.201\\
+\textbf{elec}, q. loss (win \%) & 1.0 & 0.563 & 0.603 & 0.158 & 0.183 & 0.189 & 0.241 & 0.243\\
+\textbf{elec}, set size (win \%) & 1.0 & 0.567 & 0.612 & 0.183 & 0.206 & 0.209 & 0.255 & 0.258\\
+\textbf{elec}, q. loss (avg) p-val & 1.0 & 0.939 & 0.899 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{elec}, set size (avg) p-val & 1.0 & 0.948 & 0.914 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{elec}, a. loss (avg) p-val & 1.0 & 0.928 & 0.886 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{elec}, q. loss (win \%) p-val & 1.0 & 0.881 & 0.977 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{elec}, set size (win \%) p-val & 1.0 & 0.884 & 0.988 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{elec}, a. loss (win \%) p-val & 1.0 & 0.885 & 0.973 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\midrule
+
+
+\textbf{ercot 2024-12-18}, q. loss (avg) & \textbf{29.095} & \textbf{29.158} & \textbf{36.918} & 59.118 & 76.629 & 53.233 & 42.344 & 42.349\\
+\textbf{ercot 2024-12-18}, set size (avg) & \textbf{691.496} & \textbf{691.414} & 746.546 & 977.629 & 1117.69 & 912.214 & 778.808 & 778.99\\
+\midrule
+\textbf{ercot 2024-12-18}, q. loss (win \%) & 1.0 & 0.371 & 0.399 & 0.227 & 0.288 & 0.296 & 0.286 & 0.283\\
+\textbf{ercot 2024-12-18}, set size (win \%) & 1.0 & 0.34 & 0.407 & 0.243 & 0.31 & 0.317 & 0.301 & 0.296\\
+\midrule
+\textbf{ercot 2024-12-18}, q. loss (avg) p-val & 1.0 & 0.5 & 0.0 & 0.003 & 0.016 & 0.002 & 0.0 & 0.0\\
+\textbf{ercot 2024-12-18}, set size (avg) p-val & 1.0 & 0.507 & 0.0 & 0.002 & 0.016 & 0.001 & 0.0 & 0.001\\
+\textbf{ercot 2024-12-18}, a. loss (avg) p-val & 1.0 & 0.494 & 0.0 & 0.004 & 0.015 & 0.003 & 0.0 & 0.0\\
+\midrule
+\textbf{ercot 2024-12-18}, q. loss (win \%) p-val & 1.0 & 0.183 & 0.001 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{ercot 2024-12-18}, set size (win \%) p-val & 1.0 & 0.175 & 0.003 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\textbf{ercot 2024-12-18}, a. loss (win \%) p-val & 1.0 & 0.18 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0\\
+\midrule

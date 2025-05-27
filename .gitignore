@@ -1,0 +1,4 @@
+.DS_Store
+final/results/
+preregistered_w_val/plots
+reproduced_experiments/

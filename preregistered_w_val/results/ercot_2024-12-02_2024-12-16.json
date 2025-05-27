@@ -1,0 +1,258 @@
+{
+    "aci_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.1,
+        "kwargs": {
+            "T_burnin": 20,
+            "window_size": 100000
+        }
+    },
+    "aci_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 10.0,
+        "kwargs": {
+            "T_burnin": 20,
+            "window_size": 100000
+        }
+    },
+    "scalar_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 1000.0,
+        "kwargs": {}
+    },
+    "scalar_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 10000.0,
+        "kwargs": {}
+    },
+    "linear_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 1e-05,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200
+        }
+    },
+    "linear_batched_2_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.0001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 2
+        }
+    },
+    "linear_batched_4_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.0001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 4
+        }
+    },
+    "linear_batched_8_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.0001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 8
+        }
+    },
+    "linear_batched_16_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.0001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 16
+        }
+    },
+    "linear_batched_32_qt_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.0001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 32
+        }
+    },
+    "linear_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200
+        }
+    },
+    "linear_batched_2_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 2
+        }
+    },
+    "linear_batched_4_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 4
+        }
+    },
+    "linear_batched_8_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 8
+        }
+    },
+    "linear_batched_16_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 16
+        }
+    },
+    "linear_batched_32_qt_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 0.001,
+        "kwargs": {
+            "p_order": 1,
+            "bias": 200,
+            "batch_size": 32
+        }
+    },
+    "conformal_pi": {
+        "lr_type": "fixed",
+        "fitted_lr": 1.0,
+        "kwargs": {
+            "Csat": 1,
+            "KI": 100,
+            "ahead": 1,
+            "T_burnin": 20,
+            "proportional_lr": true
+        }
+    },
+    "conformal_pi_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 100.0,
+        "kwargs": {
+            "Csat": 0.5598681933691945,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "proportional_lr": false
+        }
+    },
+    "conformal_pi_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 10000.0,
+        "kwargs": {
+            "Csat": 1,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "proportional_lr": false
+        }
+    },
+    "conformal_pid_ar_scorecaster": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.01,
+        "kwargs": {
+            "Csat": 5,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "ar",
+            "p_order_for_ar_scorecaster": 1,
+            "proportional_lr": true
+        }
+    },
+    "conformal_pid_ar_scorecaster_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 10.0,
+        "kwargs": {
+            "Csat": 5,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "ar",
+            "p_order_for_ar_scorecaster": 1,
+            "proportional_lr": false
+        }
+    },
+    "conformal_pid_ar_scorecaster_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 100.0,
+        "kwargs": {
+            "Csat": 1,
+            "KI": 200,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "ar",
+            "p_order_for_ar_scorecaster": 1,
+            "proportional_lr": false
+        }
+    },
+    "conformal_pid_theta_scorecaster": {
+        "lr_type": "fixed",
+        "fitted_lr": 0.01,
+        "kwargs": {
+            "Csat": 5,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "theta",
+            "proportional_lr": true
+        }
+    },
+    "conformal_pid_theta_scorecaster_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 10.0,
+        "kwargs": {
+            "Csat": 5,
+            "KI": 2180.1363830566406,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "theta",
+            "proportional_lr": false
+        }
+    },
+    "conformal_pid_theta_scorecaster_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 1000.0,
+        "kwargs": {
+            "Csat": 0.5598681933691945,
+            "KI": 100,
+            "ahead": 1,
+            "T_burnin": 20,
+            "scorecaster": "theta",
+            "proportional_lr": false
+        }
+    },
+    "qt_on_ar_fixed": {
+        "lr_type": "fixed",
+        "fitted_lr": 10.0,
+        "kwargs": {
+            "p_order": 1,
+            "window_size": 10
+        }
+    },
+    "qt_on_ar_decaying": {
+        "lr_type": "decaying",
+        "fitted_lr": 100.0,
+        "kwargs": {
+            "p_order": 1,
+            "window_size": 10
+        }
+    }
+}
