@@ -710,9 +710,9 @@ if __name__ == "__main__":
         model_type = sys.argv[2]
         data_name = f'{data_abbr}_{model_type}_absolute-residual_scores' 
         write_results(data_name, experiment_name, methods_to_run, val_split=0.33, tune_on_val=True, add_to_saved_results=True)
-        eval(data_name, experiment_name, write_latex=True)
+        eval(data_name, experiment_name, write_latex=False)
 
     else:
         data_name = sys.argv[1]
         write_results(data_name, experiment_name, methods_to_run, val_split=0.25, tune_on_val=True, get_thetas=False, add_to_saved_results=True)
-        eval(data_name, experiment_name, write_latex=True)
+        eval(data_name, experiment_name, write_latex=False)

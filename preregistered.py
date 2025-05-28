@@ -65,6 +65,6 @@ if __name__ == "__main__":
 
     # Not using hparam file - tuning on test for baselines. Preregistered hparams for our algorithms are hard-coded in main.py
     write_results(data_name, experiment_name, methods_to_run, tune_on_val=False, val_split=0, get_thetas=False, scores=scores, add_to_saved_results=True, hparam_file=hparam_file)
-    eval(data_name, experiment_name, scores=scores, write_latex=True)
+    eval(data_name, experiment_name, scores=scores, write_latex=False)
 
 
